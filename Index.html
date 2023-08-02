@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Facility Booking Module</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <h1>Facility Booking Module</h1>
+    <div class="facility-box">
+        <label for="facility">Facility:</label>
+        <select id="facility">
+            <option value="">Select Facility</option>
+            <option value="Clubhouse">Clubhouse</option>
+            <option value="Tennis Court">Tennis Court</option>
+        </select>
+    </div>
+    <div class="date-box">
+        <label for="date">Date:</label>
+        <input type="date" id="date">
+    </div>
+    <div class="time-box">
+        <label for="startTime">Start Time:</label>
+        <input type="time" id="startTime">
+        <label for="endTime">End Time:</label>
+        <input type="time" id="endTime">
+    </div>
+    <div class="button-box">
+        <button onclick="bookFacility()">Book Facility</button>
+    </div>
+    <div class="booked-slots">
+        <h2>Booked Slots</h2>
+        <div id="bookedSlotsBox"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
