@@ -36,7 +36,8 @@ To run the Facility Booking Module, follow these steps:
 
 Ensure you have a modern web browser installed.
 
-Clone the repository or download the source code from GitHub link.
+Clone the repository or download the source code from [GitHub repository](https://github.com/AnkithSharmaji/Facility-Booking-Module.git).
+.
 
 Open the index.html file in your web browser.
 
