@@ -53,3 +53,5 @@ If the selected time slot is already booked, you will receive an alert saying "B
 
 # Hosted link
 
+To access the application, please visit the [hosted link](https://main--voluble-truffle-6e38ee.netlify.app/).
+
